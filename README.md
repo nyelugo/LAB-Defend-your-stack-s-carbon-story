@@ -13,11 +13,10 @@ project. A company name in; an evidence-backed draft inventory of that company's
 |---|---|
 | [`carbon-story-ai-pre-scan-path-b-ugo-ahukannah.pptx`](./carbon-story-ai-pre-scan-path-b-ugo-ahukannah.pptx) | **The deliverable.** 13 content slides plus a title slide, with speaker notes on every slide |
 | [`retrofit-audit-template.md`](./retrofit-audit-template.md) | The Path B retrofit audit template, completed — hotspots with their code evidence, prioritised opportunities, measurement plan, risks and tradeoffs |
-| [`deck/slide_copy.md`](./deck/slide_copy.md) | Slide source, in the layout-archetype format the deck is generated from — edit this, not the `.pptx`, and re-export |
 
-**One deck, one file.** The generator's intermediate output is gitignored deliberately: it carries no
-speaker notes and a non-descriptive filename, so committing it would leave two decks in the repo and
-invite the wrong one being opened.
+**One deck, one file.** Build intermediates are deliberately not committed — the lab asks for the
+deck, optionally the audit template, and a README that maps each file. Anything else is clutter that
+invites the wrong file being opened.
 
 ## Deck structure
 
